@@ -1,0 +1,43 @@
+first command inside your mainFolder
+npm init
+     package name (write packageName) then enter
+     version then enter
+     description asdasdasd then enter
+     entry pointer
+     test command
+     git repository
+     keyword: Bootstrap bootstrap-v5 sass learn-bootstrap learn-sass
+     autor: yourname
+     then enter
+
+install dart-sass on npmjs.com then search dart-sass
+    npm install --save-dev sass
+
+install bootstrap5 on getbootstrap.com
+    npm install bootstrap --save
+        (--save) is to save dependencies
+
+install font-awesome on fontawesome.com
+    startforfree -> npm
+        npm install --save @fortawesome/fontawesome-free
+
+install autoprefixer on npmjs.com
+    npm install postcss-cli autoprefixer --save
+
+open package.json then go to script
+    "compile:sass":"sass scss:assets/css"
+
+create scss foldername
+then add file name style.scss
+go to terminal and npm run compile:sass
+
+"compile:sass":"sass --watch scss:assets/css"
+
+inside scss folder add file _custome.scss to overide variables in bootstrap
+
+edit _custome.scss and add @import "../node_modules/bootstrap/scss/bootstrap.scss";
+scss/style.scss @use'custom';
+
+in head section inside your main file
+link href="assets/css/style.css"
+
