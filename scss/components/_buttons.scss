@@ -11,9 +11,12 @@
     // @include media-breakpoint-up(lg){
     //     display: none;
     // }
-    @include media-breakpoint-down(xl){
+    @include media-breakpoint-down(lg){
         display: none;
     }
+    // @include media-breakpoint-up(xl){
+    //     display: auto;
+    // }
 
 
     position: relative;
