@@ -2,13 +2,16 @@
 @use'../components/mixins' as *;
 
 .btn-rounded{
-    @include media-breakpoint-down(sm){
-        display: none;
-    }
-    @include media-breakpoint-down(md){
-        display: none;
-    }
-    @include media-breakpoint-down(lg){
+    // @include media-breakpoint-down(sm){
+    //     display: none;
+    // }
+    // @include media-breakpoint-down(md){
+    //     display: none;
+    // }
+    // @include media-breakpoint-up(lg){
+    //     display: none;
+    // }
+    @include media-breakpoint-down(xl){
         display: none;
     }
 
