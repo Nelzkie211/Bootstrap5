@@ -17,5 +17,10 @@
         padding-top:1.2rem;
         font-family: 'Poppins', sans-serif;
         text-transform: none;
+
+        @include media-breakpoint-up(lg){
+            font-size: 1.4rem;
+            display: inline-block;
+        }
     }
 }
